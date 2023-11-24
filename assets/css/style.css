@@ -22,7 +22,28 @@ h5,
 h6 {
   color: #1e1e1e;
 }
+/* Estilo básico para el contenedor del botón de WhatsApp */
+#whatsapp-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000; /* Asegura que el botón esté en la parte superior */
+}
 
+/* Estilo para el botón de WhatsApp */
+#whatsapp-button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none; /* Elimina el contorno predeterminado al hacer clic */
+}
+
+/* Estilo para la imagen del botón de WhatsApp */
+#whatsapp-button img {
+  width: 60px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
 a {
   color: #1e1e1e;
   text-decoration: none;
